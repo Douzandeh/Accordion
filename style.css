@@ -6,4 +6,33 @@
 
 body {
   background: #e3f2fd;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section_accordion {
+  background-color: #fff;
+  width: 580px;
+  height: 288px;
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  padding: 0.9rem;
+}
+
+.row_accordion{
+  background-color: #FFF7F0;
+  padding: 0 15px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.header_accordion{
+  min-height: 1.9rem;
+  display: block;
+  line-height: 1.9rem;
 }
